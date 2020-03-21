@@ -1,0 +1,51 @@
+body{
+	background-color:lightgrey;
+	/*border: solid; color:white;*/
+	margin: 10px auto;
+	padding: 15px 30px;
+}
+header{
+	background-color:rgba(119,90,90,0.7);
+	
+	/*padding:5px 30px;
+	position: relative;
+	top:10px;
+	left: 50px;*/
+	position:relative;
+	width: 100%;
+}
+section{
+	font-family: all;
+	margin-top: 100px;
+}
+article{
+	text-align: justify;
+	font-size: 15px;
+	line-height: 25px;
+
+}
+/*Link Style*/
+nav>ul>li{
+	display: inline-block;
+	padding: 10px 3px;
+	font-size: 20px;
+}
+.title{
+	font-size: 23px;
+	font-weight: bold;
+
+}
+nav>ul>li>a{
+	text-decoration: none;
+.date{
+	text-transform: uppercase;
+	font-size: 15px;
+	font-style: italic;
+}
+#top{
+	margin: 100px;
+}
+
+#clear{
+	clear: left;
+}

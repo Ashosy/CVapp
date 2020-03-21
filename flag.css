@@ -1,0 +1,23 @@
+.flag {
+  width: 180px;
+  height: 120px;
+  overflow: hidden;
+  border: 1px solid #efefef;
+}
+
+.bahrain {
+
+  background: linear-gradient(90deg, white, white 25%, #CE1126 25%, #CE1126 100%);
+  position: relative; 
+}
+
+.bahrain:before {
+  position: absolute;
+  content: "";
+  width: 24px;
+  height: 100%;
+  background: linear-gradient(154deg, white 32%, transparent 31%) 0 12px, linear-gradient(24deg, white 32%, transparent 31%) 0 36px;
+  background-size: 24px 24px;
+  left: 44px;
+  top: 0; 
+}
